@@ -141,7 +141,8 @@ const Navbar = () => {
                         to="coming-soon"
                         smooth={true}
                         duration={500}
-                        className="block px-4 py-2 hover:bg-gray-200"
+                        className="block px-4 py-2 hover:bg-gray-200 cursor-not-allowed opacity-50"
+                        onClick={(e) => e.preventDefault()} // Menonaktifkan klik
                       >
                         Coming Soon
                       </Link>

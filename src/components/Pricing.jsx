@@ -1,13 +1,13 @@
 import React from "react";
 
-const Contact = () => {
+const Pricing = () => {
   return (
-    <div id="contact" className="pt-16 bg-gray-100 min-h-screen">
+    <div id="pricing" className="pt-16 bg-gray-100 min-h-screen">
       <h1 className="text-center text-3xl font-semibold text-gray-800">
-        Contact
+        Pricing
       </h1>
     </div>
   );
 };
 
-export default Contact;
+export default Pricing;
