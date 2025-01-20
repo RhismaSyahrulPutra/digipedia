@@ -1,7 +1,13 @@
 import React from "react";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <div className="pt-16 bg-gray-100 min-h-screen">
+      <h1 className="text-center text-3xl font-semibold text-gray-800">
+        About
+      </h1>
+    </div>
+  );
 };
 
 export default About;
