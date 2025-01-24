@@ -12,10 +12,11 @@ const Contact = () => {
     <div id="contact" className="pt-20 bg-gray-100 min-h-screen p-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
         {/* Card 1 - Contact Form */}
-        <div className="bg-white p-6 rounded-lg shadow-lg ">
+        <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold text-center">Contact Us</h3>
           <div className="mt-4">
             <form>
+              {/* First Name */}
               <div className="mb-4">
                 <label
                   htmlFor="firstName"
@@ -31,6 +32,7 @@ const Contact = () => {
                   placeholder="First Name"
                 />
               </div>
+              {/* Last Name */}
               <div className="mb-4">
                 <label
                   htmlFor="lastName"
@@ -46,6 +48,7 @@ const Contact = () => {
                   placeholder="Last Name"
                 />
               </div>
+              {/* Email */}
               <div className="mb-4">
                 <label
                   htmlFor="email"
@@ -61,6 +64,7 @@ const Contact = () => {
                   placeholder="Email"
                 />
               </div>
+              {/* Message */}
               <div className="mb-4">
                 <label
                   htmlFor="message"
@@ -76,6 +80,7 @@ const Contact = () => {
                   placeholder="Your message here..."
                 />
               </div>
+              {/* Submit Button */}
               <button
                 type="submit"
                 className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-200"
