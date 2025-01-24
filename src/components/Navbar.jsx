@@ -19,8 +19,8 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* Logo */}
         <div className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={LogoNormal} className="h-12" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-800">
+          <img src={LogoNormal} className="h-12" alt="Digipedia Logo" />
+          <span className="self-center text-xl font-semibold whitespace-nowrap text-gray-800">
             DigiPedia
           </span>
         </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 to="home"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer block py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="cursor-pointer block py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-sm"
               >
                 Home
               </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
                 to="about"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer block py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="cursor-pointer block py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-sm"
               >
                 About
               </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
             <li className="relative">
               <button
                 onClick={toggleDropdown}
-                className="flex items-center justify-between w-full py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="flex items-center justify-between w-full py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-sm"
               >
                 Service
                 <svg
@@ -118,7 +118,7 @@ const Navbar = () => {
                         to="service"
                         smooth={true}
                         duration={500}
-                        className="block px-4 py-2 hover:bg-gray-200"
+                        className="block px-4 py-2 hover:bg-gray-200 text-sm"
                       >
                         Service
                       </Link>
@@ -128,7 +128,7 @@ const Navbar = () => {
                         to="pricing"
                         smooth={true}
                         duration={500}
-                        className="block px-4 py-2 hover:bg-gray-200"
+                        className="block px-4 py-2 hover:bg-gray-200 text-sm"
                       >
                         Pricing
                       </Link>
@@ -138,8 +138,8 @@ const Navbar = () => {
                         to="coming-soon"
                         smooth={true}
                         duration={500}
-                        className="block px-4 py-2 hover:bg-gray-200 cursor-not-allowed opacity-50"
-                        onClick={(e) => e.preventDefault()} // Menonaktifkan klik
+                        className="block px-4 py-2 hover:bg-gray-200 cursor-not-allowed opacity-50 text-sm"
+                        onClick={(e) => e.preventDefault()}
                       >
                         Coming Soon
                       </Link>
@@ -155,7 +155,7 @@ const Navbar = () => {
                 to="contact"
                 smooth={true}
                 duration={500}
-                className="cursor-pointer block py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                className="cursor-pointer block py-2 px-3 text-gray-800 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-sm"
               >
                 Contact
               </Link>

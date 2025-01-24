@@ -13,7 +13,7 @@ const Footer = () => {
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse justify-center sm:justify-start"
           >
             <img src={LogoNegatif} className="h-12" alt="Flowbite Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Digipedia
             </span>
           </Link>
